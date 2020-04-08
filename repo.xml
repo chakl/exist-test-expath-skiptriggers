@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta xmlns="http://exist-db.org/xquery/repo">
+    <description>An app to prove the behavior of the repo.xml/skip-triggers element for the test suite</description>
+    <author>olaf@existsolutions.com</author>
+    <website>https://github.com/chakl/exist-test-expath-skiptriggers</website>
+    <license>GNU-LGPL</license>
+    <copyright>true</copyright>
+    <type>application</type>
+    <target>test-expath-skiptriggers</target>
+    <prepare>pre-install.xql</prepare>
+    <finish>post-install.xql</finish>
+    <skip-triggers/>
+    <permissions user="trigger-test" group="trigger-test" mode="rw-rw-r--"/>
+</meta>
